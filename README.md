@@ -28,6 +28,8 @@ To run this project,install it locally.
 This project is based on HTML,CSS, JS tutorials from W3Schools.
 ### Contributions
 To contribute to Akan names project, clone this repo locally and commit your code on a separate branch. write a unit code and run before opening puul requests. 
+### Licence.
+
 
 
 
