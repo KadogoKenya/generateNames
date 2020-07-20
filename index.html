@@ -10,38 +10,106 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
   <link rel ="stylesheet" type="text/css" href="styles.css">
+  <script>  
+    var image1 = new Image()
+    image1.src="images/img9.jpg"  
+    var image2 = new Image()
+    image2.src="images/img10.jpg"
+    var image3 = new Image()
+    image3.src="images/img11.jpg"
+    var image4 = new Image()
+    image4.src="images/img12.jpg"
+    var image5 = new Image()
+    image5.src="images/img8.jpg"
+  </script>
+  
 </head>
 <body>
-
-<div class="jumbtron">
-<div class="container">
-  <img src="C:\Users\hp\Documents\Akannames\download.jpg">
-  <h2>AKAN names form</h2>
-  <form>
-    <div class="form-group">
-      <label for="Day">Day</label>
-      <input type="text" class="form-control" id="dd">
+  <div class="jumbotron">
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
     </div>
+  </div>
 
-    <div class="form-group">
-      <label for="Day">Month</label>
-      <input type="Month" class="form-control" id="mm">
-    </div>
-
-    <div class="form-group">
-        <label for="Day">Year</label>
-        <input type="Year" class="form-control" id="yy">
+  <div class="container">
+          
+      <div id="slider">
+          <figure>
+            <div class="slide">
+              <img src="images/img9.jpeg">
+            </div>
+            <div class="slide">
+              <img src="images/img10.jpeg">
+            </div>
+            <div class="slide">
+              <img src="images/img11.jpeg">
+            </div>
+            <div class="slide">
+              <img src="images/img12.jpeg">
+            </div>
+            <div class="slide">
+              <img src="images/img8.jpeg">
+            </div>         
+          </figure>
       </div>
+<body>
+  
+  <div class="form_details">
+    <p>
+      Akan names is a Ghanian naming style system that uses a certain
+      algorith to determine the day of the week that you were born. There
+      are names allocated to the to both male or female depending on the day
+      you were born.</p>
+    <h3>Fill in the following details</h3>
+        
+        <form name="form_sub" action="" id="personal_details">
+          <h3><u>Enter the following fields</u></h3>
+         firstname:<br>
+         <input type="text" name="firstname" id="fname" required/><br><br>
+         Secondname<br>
+          <input type="text" name="secondname" id="sname" required/><br><br>
+          Gender:
+          <select name="gender" id="gender" required>
+            <option value="1" id="male">Male</option>
+            <option value="2" id="female">Female</option></select>
+            <br/><br/>
+            DATE OF BIRTH: <br/>
+            Day:<input name="day" type="number" id="day" style="width: 60px;"/><br/><br/>
+            Month: <input name="month" type="number" id="month" style="width: 60px;"/>  <br /><br />
+            Year:<input name="year" type="number" id ="year" style="width: 60px;"><br /><br/>
+            <button id="submit" type="submit" type="button" onclick="myFormData()">Submit</button>
+          </form>
+          <div  id="result">
+            <p id="alert"></p>
+          </div >
+  
+        </div>
+         <div id="footer">
+              <table class="tfooter">
+                <tr>
+                  <td style="width: 100%;align-content: center; ">
+                    <a href="https://mobile.facebook.com/KadogoKenya?ref=m_notif&notif_t=page_user_activity"><img src="images/img2.png" alt="A facebook link"></a>
+                  </td>
+                  <td style="width: 30%;align-content: center;">
+                    <a href="https://twitter.com/kadogokenya"><img src="images/img1.png" alt="A twitter link"></a>
+                  </td>
+                  <td style="width: 30%;align-content: center;">
+                    <a href=""><img src="images/img3.png" alt="A linkedin file"></a>
+                  </td>
+                </tr>
+                
+             </table>
+            </div> 
+      </div>
+  </div>
+ 
 
-      <input type="radio" id="male" name="gender" value="male">     
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
-    
-    <button type="submit" class="btn btn-primary" onclick="myForm()">Submit</button> 
-  </form>
-<script src="script.js"></script>
 </div>
 </div>
+<script src="scripts.js"></script>
 </body>
+
 </html>
