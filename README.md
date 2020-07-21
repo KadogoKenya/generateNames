@@ -58,7 +58,7 @@ To contribute to Akan names project, clone this repo locally and commit your cod
 * Author: Cathrine Kanini.
 * Application Name: Akan Names Application
 * Application Description:This is an application on akan names where one is given a name based on the day of birth which is calculated using a predefined algorithm.
-* Development date: 01/12/2019
+* Development date: 2020, July 20 
 * Contacts: You can get in touch with me through catherinekanini001@gmail.com
 * Copyright: No one is allowed to copy this project 
 
